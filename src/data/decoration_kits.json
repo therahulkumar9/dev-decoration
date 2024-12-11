@@ -1,0 +1,164 @@
+{
+  "packages": [
+    {
+      "id": 1,
+      "title": "Birthday Balloon Decoration",
+      "slug": "birthday-balloon-decoration",
+      "description": "Celebrate with a beautiful birthday balloon decoration.",
+      "price": 1699,
+      "originalPrice": 1899,
+      "discount": 11,
+      "image": "/packages/balloon-decoration.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Pink Purple Balloon Surprise",
+      "slug": "pink-purple-balloon-surprise",
+      "description": "A vibrant pink and purple balloon surprise for your birthday.",
+      "price": 1199,
+      "originalPrice": 1299,
+      "discount": 8,
+      "image": "/packages/pink-purple-balloon.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Silver Black Birthday Decor With Name",
+      "slug": "silver-black-birthday-decor-with-name",
+      "description": "Elegant silver and black birthday decor with a personalized name.",
+      "price": 2699,
+      "originalPrice": 2899,
+      "discount": 7,
+      "image": "/packages/silver-black-decor.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Glamourous Birthday Decoration",
+      "slug": "glamourous-birthday-decoration",
+      "description": "A glamorous setup for a spectacular birthday celebration.",
+      "price": 2399,
+      "originalPrice": 2999,
+      "discount": 20,
+      "image": "/packages/glamourous-decor.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Elegant Wall Birthday Backdrop",
+      "slug": "elegant-wall-birthday-backdrop",
+      "description": "A sophisticated wall backdrop for your birthday celebration.",
+      "price": 2699,
+      "originalPrice": 2999,
+      "discount": 10,
+      "image": "/packages/elegant-wall-backdrop.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Shiny Birthday Decoration",
+      "slug": "shiny-birthday-decoration",
+      "description": "A shiny and eye-catching decoration for your birthday party.",
+      "price": 1799,
+      "originalPrice": 1999,
+      "discount": 10,
+      "image": "/packages/shiny-decor.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Rose-gold Sequin Curtains Decoration",
+      "slug": "rose-gold-sequin-curtains-decoration",
+      "description": "Beautiful rose-gold sequin curtains for a stunning birthday backdrop.",
+      "price": 3799,
+      "originalPrice": 4099,
+      "discount": 7,
+      "image": "/packages/rose-gold-sequin.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Ice-cream Theme Birthday Decoration",
+      "slug": "ice-cream-theme-birthday-decoration",
+      "description": "An ice-cream themed decoration for a sweet birthday celebration.",
+      "price": 2499,
+      "originalPrice": 2799,
+      "discount": 11,
+      "image": "/packages/ice-cream-theme.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Cute Masha Birthday Decor",
+      "slug": "cute-masha-birthday-decor",
+      "description": "A cute Masha themed decoration for your birthday.",
+      "price": 1999,
+      "originalPrice": 2499,
+      "discount": 20,
+      "image": "/packages/cute-masha-decor.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Elegant Cabana Decoration",
+      "slug": "elegant-cabana-decoration",
+      "description": "An elegant cabana setup for a memorable birthday celebration.",
+      "price": 2599,
+      "originalPrice": 2899,
+      "discount": 10,
+      "image": "/packages/elegant-cabana.jpg"
+    },
+    {
+      "id": 11,
+      "title": "1st Birthday Cocomelon Theme",
+      "slug": "1st-birthday-cocomelon-theme",
+      "description": "A cute Cocomelon themed decoration for a 1st birthday.",
+      "price": 2799,
+      "originalPrice": 3499,
+      "discount": 20,
+      "image": "/packages/cocomelon-theme.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Red Golden Love Decor",
+      "slug": "red-golden-love-decor",
+      "description": "A romantic red and golden love theme decoration for a birthday.",
+      "price": 1999,
+      "originalPrice": 2199,
+      "discount": 9,
+      "image": "/packages/red-golden-love.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Flower Balloon Décor For Birthday",
+      "slug": "flower-balloon-decor-for-birthday",
+      "description": "Decorate with beautiful flower balloons for a charming birthday.",
+      "price": 1499,
+      "originalPrice": 1799,
+      "discount": 17,
+      "image": "/packages/flower-balloon-decor.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Car Dikki Decoration",
+      "slug": "car-dikki-decoration",
+      "description": "Add style with a decorative car dikki setup for a birthday.",
+      "price": 1529,
+      "originalPrice": 1729,
+      "discount": 12,
+      "image": "/packages/car-dikki-decor.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Surprise Decoration For Partner",
+      "slug": "surprise-decoration-for-partner",
+      "description": "A romantic surprise decoration for your partner's birthday.",
+      "price": 1699,
+      "originalPrice": 1899,
+      "discount": 11,
+      "image": "/packages/surprise-for-partner.jpg"
+    },
+    {
+      "id": 16,
+      "title": "50th Birthday Garland Decor",
+      "slug": "50th-birthday-garland-decor",
+      "description": "A beautiful garland decoration for a 50th birthday celebration.",
+      "price": 1999,
+      "originalPrice": 2499,
+      "discount": 20,
+      "image": "/packages/50th-birthday-garland.jpg"
+    }
+  ]
+}
