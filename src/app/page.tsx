@@ -1,5 +1,9 @@
 export default function Home() {
   return (
-    <h1 className="text-2xl text-center">Patna Decoration</h1>
+    <>
+    <main className="min-h-screen bg-black/[0.96]">
+      {/* <h1 className="text-3xl text-center">Patan Decoration</h1> */}
+    </main>
+    </>
   );
 }
