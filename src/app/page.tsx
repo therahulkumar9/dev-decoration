@@ -1,5 +1,6 @@
 import HeroSection from "@/components/HeroSection";
 import { Spotlight } from "@/components/ui/Spotlight";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         fill="white"
       />
       <HeroSection />
+      <Footer />
     </main>
     </>
   );
