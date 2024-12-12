@@ -5,7 +5,6 @@ import {
   HoveredLink,
   Menu,
   MenuItem,
-  ProductItem,
 } from "@/components/ui/Navbar-menu"
 import { cn } from "@/utils/cn"
 import Link from "next/link"

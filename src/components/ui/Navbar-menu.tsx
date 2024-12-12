@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import Link from "next/link";
+import Link, { LinkProps } from "next/link";
 import Image from "next/image";
 
 const transition = {
@@ -13,7 +13,6 @@ const transition = {
   restSpeed: 0.001,
 };
 
-// Enhanced MenuItem with more robust typing and improved animations
 export const MenuItem = ({
   setActive,
   active,
@@ -81,7 +80,6 @@ export const MenuItem = ({
   );
 };
 
-// Enhanced Menu with more flexible configuration
 export const Menu = ({
   setActive,
   children,
@@ -117,7 +115,6 @@ export const Menu = ({
   );
 };
 
-// Enhanced ProductItem with more design flexibility
 export const ProductItem = ({
   title,
   description,
@@ -185,12 +182,11 @@ export const ProductItem = ({
   );
 };
 
-// Enhanced HoveredLink with more interaction states
-export const HoveredLink = ({ 
+export const HoveredLink = ({
   children, 
   className = "", 
-  ...rest 
-}: any) => {
+  ...rest
+}: React.PropsWithChildren<LinkProps> & { className?: string }) => {
   return (
     <Link
       {...rest}
@@ -209,4 +205,6 @@ export const HoveredLink = ({
   );
 };
 
-export default { MenuItem, Menu, ProductItem, HoveredLink };
+const NavbarMenu = { MenuItem, Menu, ProductItem, HoveredLink };
+
+export default NavbarMenu;
