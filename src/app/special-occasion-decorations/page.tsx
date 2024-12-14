@@ -1,5 +1,5 @@
 
-import birthdayData from "@/data/decoration_kits.json";
+import birthdayData from "@/data/special.json";
 import Link from "next/link";
 import SpecificOccasionCard from "@/components/SpecialOccasionCard";
 
