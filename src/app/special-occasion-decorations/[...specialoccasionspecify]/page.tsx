@@ -29,7 +29,6 @@ export default function SpecialOccasionSpecific() {
   return (
     <>
       <div>
-        <h1>Birthday Specification</h1>
         {filterdata.length > 0 ? (
           filterdata.map((item) => (
             <div key={item.id}>

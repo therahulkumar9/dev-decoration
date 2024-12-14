@@ -29,7 +29,6 @@ export default function AnniversarySpecific() {
   return (
     <>
       <div>
-        <h1>Anniversary Specification </h1>
         {filterdata.length > 0 ? (
           filterdata.map((item) => (
             <div key={item.id}>
