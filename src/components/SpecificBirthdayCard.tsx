@@ -1,6 +1,7 @@
 import Image from "next/image";
 import WhatsappButton from "./WhatsappButton";
-
+import Callbutton from "./CallButton"
+import CallButton from "./CallButton";
 interface BirthdayCardProps {
   title: string;
   image: string;
@@ -27,7 +28,10 @@ export default function BirthdayCard({ title, image, price,description }: Birthd
         <h1 className=" mt-2 font-semibold">{title}</h1>
         <p>{description}</p>
         <h2 className="text-green-500 text-md font-bold mb-3">₹ {price}</h2>
+        <div className="flex gap-5">
         <WhatsappButton />
+        <CallButton/>
+        </div>
       </div>
     </div>
   );
