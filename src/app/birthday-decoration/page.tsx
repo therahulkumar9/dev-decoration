@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function BirthdayDecoration() {
   return (
     <>
-    <div className="p-20">
+    <div className="p-20 bg-pink-300">
       <div className="mt-4 sm:grid sm:grid-cols-3 gap-4 ">
       
         {birthdayData.packages.map((data, index) => (
