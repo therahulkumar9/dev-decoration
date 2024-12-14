@@ -89,16 +89,6 @@
       "originalPrice": 2499,
       "discount": 20,
       "image": "/birthday/img9.png"
-    },
-    {
-      "id": 10,
-      "title": "Elegant Cabana Decoration",
-      "slug": "elegant-cabana-decoration",
-      "description": "An elegant cabana setup for a memorable birthday celebration.",
-      "price": 2599,
-      "originalPrice": 2899,
-      "discount": 10,
-      "image": "/birthday/img10.png"
     }
   ]
 }
