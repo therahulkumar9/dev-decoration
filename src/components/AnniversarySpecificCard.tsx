@@ -1,18 +1,31 @@
-import Image from "next/image";
-import WhatsappButton from "./WhatsappButton";
+import Image from "next/image"
+import WhatsappButton from "./WhatsappButton"
 
 interface AnniversaryCardProps {
-  title: string;
-  image: string;
-  price: number;
-  id:number;
-  description:string
+  title: string
+  image: string
+  price: number
+  id: number
+  description: string
 }
 
-export default function AnniversarySpecificCard({ title, image, price,description }: AnniversaryCardProps) {
+export default function AnniversarySpecificCard({
+  title,
+  image,
+  price,
+  description,
+}: AnniversaryCardProps) {
   return (
     <div className="mt-10 sm:flex items-center justify-center relative top-20 p-10 w-full">
-        <Image src={image} alt={title} width={400} height={200} />
+      <div className="w-[600px] h-[400px] overflow-hidden">
+        <Image
+          src={image}
+          alt={title}
+          width={300}
+          height={200}
+          className="object-cover w-full h-full"
+        />
+      </div>
       <div className="mt-2 pl-5 p-4">
         <h1 className=" mt-2 font-semibold">{title}</h1>
         <p>{description}</p>
@@ -20,5 +33,5 @@ export default function AnniversarySpecificCard({ title, image, price,descriptio
         <WhatsappButton />
       </div>
     </div>
-  );
+  )
 }
