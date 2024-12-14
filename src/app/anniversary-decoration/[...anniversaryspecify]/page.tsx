@@ -2,7 +2,7 @@
 import { usePathname } from "next/navigation"
 import data from "@/data/decoration_kits.json"
 import { useEffect, useState } from "react"
-import SpecificBirthdayCard from "@/components/SpecificBirthdayCard"
+import AnniversarySpecificCard from "@/components/AnniversarySpecificCard"
 
 interface DecorationPackage {
   id: number;
@@ -15,9 +15,9 @@ interface DecorationPackage {
 
 }
 
-export default function BirthdaySpecification() {
+export default function AnniversarySpecific() {
   const pathname = usePathname()
-  const ids = Number(pathname.slice(21)) 
+  const ids = Number(pathname.slice(24)) 
 
   const [filterdata, setFilterData] = useState<DecorationPackage[]>([])
 
@@ -29,11 +29,11 @@ export default function BirthdaySpecification() {
   return (
     <>
       <div>
-        <h1>Birthday Specification </h1>
+        <h1>Anniversary Specification </h1>
         {filterdata.length > 0 ? (
           filterdata.map((item) => (
             <div key={item.id}>
-              <SpecificBirthdayCard title={item.title} price={item.price} image={item.image} id={item.id} description={item.description}/>
+              <AnniversarySpecificCard title={item.title} price={item.price} image={item.image} id={item.id} description={item.description}/>
             </div>
           ))
         ) : (

@@ -38,9 +38,7 @@ function Navbar({ className }: { className?: string }) {
             <HoveredLink href="/anniversary-decoration">
               Anniversary Decoration
             </HoveredLink>
-            <HoveredLink href="/kids-birthday-decoration">
-              Kids Birthday Decoration
-            </HoveredLink>
+           
             <HoveredLink href="/special-occasion-decorations">
               Special Occasion Decorations
             </HoveredLink>
