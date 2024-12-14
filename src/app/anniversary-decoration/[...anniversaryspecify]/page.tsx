@@ -1,6 +1,6 @@
 "use client"
 import { usePathname } from "next/navigation"
-import data from "@/data/decoration_kits.json"
+import data from "@/data/anniversary.json"
 import { useEffect, useState } from "react"
 import AnniversarySpecificCard from "@/components/AnniversarySpecificCard"
 
