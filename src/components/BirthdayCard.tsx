@@ -17,7 +17,6 @@ const BirthdayCard: React.FC<BirthdayCardProps> = ({
   title,
   image,
   price,
-  id,
   description = "A beautiful gift to celebrate the special day",
   backgroundColor = "bg-white",
 }) => {
