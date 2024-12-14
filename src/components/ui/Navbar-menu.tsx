@@ -34,12 +34,16 @@ export const MenuItem = ({
       <motion.p
         transition={{ duration: 0.3 }}
         className="cursor-pointer 
-          text-black 
+          text-black
+          text-base
+          font-bold
           dark:text-white 
-          font-medium 
           group-hover:text-pink-500 
           transition-colors 
-          duration-300"
+          duration-300
+          ml-1
+          "
+          
       >
         {item}
       </motion.p>
@@ -194,7 +198,8 @@ export const HoveredLink = ({
         text-neutral-700 
         dark:text-neutral-200 
         hover:text-pink-500 
-        dark:hover:text-pink-400 
+        dark:hover:text-pink-400
+        font-bold 
         transition-colors 
         duration-300 
         ${className}

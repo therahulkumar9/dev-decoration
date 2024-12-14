@@ -89,16 +89,6 @@
       "originalPrice": 5799,
       "discount": 22,
       "image": "/anniversary/img9.png"
-    },
-    {
-      "id": 10,
-      "title": "Canopy Love Decoration",
-      "slug": "canopy-love-decoration",
-      "description": "A canopy decoration to add romance to your special day.",
-      "price": 2699,
-      "originalPrice": 3199,
-      "discount": 16,
-      "image": "/anniversary/img10.png"
     }
   ]
 }
