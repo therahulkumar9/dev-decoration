@@ -1,6 +1,5 @@
 import Image from "next/image";
 import WhatsappButton from "./WhatsappButton";
-import Callbutton from "./CallButton"
 import CallButton from "./CallButton";
 interface BirthdayCardProps {
   title: string;
