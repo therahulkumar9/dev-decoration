@@ -10,8 +10,8 @@ interface DecorationPackage {
   description: string;
   price:number;
   image:string;
+  inclusion:string;
   
-
 
 }
 
@@ -32,7 +32,7 @@ export default function SpecialOccasionSpecific() {
         {filterdata.length > 0 ? (
           filterdata.map((item) => (
             <div key={item.id}>
-              <SpecialOccasionSpecificCard title={item.title} price={item.price} image={item.image} id={item.id} description={item.description}/>
+              <SpecialOccasionSpecificCard inclusion={item.inclusion} title={item.title} price={item.price} image={item.image} id={item.id} description={item.description}/>
             </div>
           ))
         ) : (

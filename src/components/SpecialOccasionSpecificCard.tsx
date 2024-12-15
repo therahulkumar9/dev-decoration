@@ -8,6 +8,7 @@ interface SpecificOccasionCardProps {
   price: number
   id: number
   description: string
+  inclusion:string
 }
 
 export default function SpecialOccasionSpecificCard({
@@ -15,8 +16,10 @@ export default function SpecialOccasionSpecificCard({
   image,
   price,
   description,
+  inclusion,
 }: SpecificOccasionCardProps) {
   return (
+    <div>
     <div className="mt-10 sm:flex items-center justify-center relative top-20 p-10 w-full">
       <div className="w-[600px] h-[400px] overflow-hidden">
         <Image
@@ -34,6 +37,19 @@ export default function SpecialOccasionSpecificCard({
         <div className="flex gap-5">
         <WhatsappButton />
         <CallButton/>
+        </div>
+
+      </div>
+    </div>
+    <div className="ml-20 mt-20">
+        <div className="">
+          <h1 className="w-full bg-gray-400 text-black text-xl p-3 rounded-lg border border-none mb-3">Inclusion</h1>
+          <div dangerouslySetInnerHTML={{ __html: inclusion }} />
+        </div>
+        <div>
+          <h1 className="w-full bg-gray-400 text-black text-xl p-3 rounded-lg border border-none mb-3 mt-3">Description</h1>
+
+          <div dangerouslySetInnerHTML={{ __html: description }} />
         </div>
 
       </div>
