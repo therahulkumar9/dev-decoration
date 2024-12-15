@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Patna Decoration - Birthday and Anniversary Decoration Services",
-  description: "Patna Decoration offers professional decoration services for birthdays and anniversaries. Make your special occasions memorable with our creative decor solutions.",
+  title: "Dev Decoration - Birthday and Anniversary Decoration Services",
+  description: "Dev Decoration offers professional decoration services for birthdays and anniversaries. Make your special occasions memorable with our creative decor solutions.",
 };
 
 export default function RootLayout({

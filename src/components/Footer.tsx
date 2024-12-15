@@ -15,7 +15,7 @@ function Footer() {
             <div className="space-y-4">
               <h2 className="text-xl font-bold text-white">About Us</h2>
               <p className="text-gray-400 leading-relaxed">
-                Patna Decoration specializes in transforming special moments into magical experiences. 
+                Dev Decoration specializes in transforming special moments into magical experiences. 
                 We craft unforgettable decorations tailored to your celebration.
               </p>
             </div>
@@ -76,10 +76,10 @@ function Footer() {
                 <div className="flex items-center space-x-2">
                   <FaEnvelope className="text-gray-400" />
                   <a 
-                    href="mailto:patnadecor@gmail.com" 
+                    href="mailto:devdecoration@gmail.com" 
                     className="hover:underline"
                   >
-                    patnadecor@gmail.com
+                    devdecoration@gmail.com
                   </a>
                 </div>
                 <div className="flex items-center space-x-2">
@@ -101,7 +101,7 @@ function Footer() {
             aria-label="Copyright Information"
           >
             <p className="text-gray-400">
-              © {currentYear} Patna Decoration. All rights reserved.
+              © {currentYear} Dev Decoration. All rights reserved.
             </p>
           </div>
         </div>

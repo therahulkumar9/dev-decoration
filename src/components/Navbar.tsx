@@ -56,7 +56,7 @@ function Navbar({ className }: { className?: string }) {
       {isMobile ? (
         <div className="flex items-center justify-between text-white">
           <Link href={"/"}>
-            <div className="font-bold text-lg">Patna Decoration</div>
+            <div className="font-bold text-lg">Dev Decoration</div>
           </Link>
           <button
             className="md:hidden transition-transform duration-300"

@@ -7,7 +7,7 @@ function HeroSection() {
      
       <div className="p-4 top-28 relative z-10 w-full text-center">
         <h1 className="mt-20 md:mt-0 text-5xl md:text-8xl lg:text-9xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
-          Patna Decoration
+          Dev Decoration
         </h1>
         <p className="mt-4 text-lg md:text-2xl lg:text-3xl font-normal text-neutral-300 max-w-4xl mx-auto px-4">
           Transform your special moments with our magical decoration services.
