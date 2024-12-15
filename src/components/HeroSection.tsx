@@ -3,7 +3,7 @@ import Link from "next/link"
 
 function HeroSection() {
   return (
-    <div className="h-auto md:h-screen w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto px-4 py-16 md:py-0">
+    <div className="h-[50%] sm:h-screen sm:top-28  w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden  px-4 py-16 md:py-0">
      
       <div className="p-4 top-28 relative z-10 w-full text-center">
         <h1 className="mt-20 md:mt-0 text-5xl md:text-8xl lg:text-9xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
