@@ -21,7 +21,7 @@ export default function AnniversarySpecificCard({
   return (
     <div>
     <div className="mt-10 sm:flex items-center justify-center relative top-20 p-10 w-full">
-      <div className="w-screen sm:w-[600px] h-[400px] overflow-hidden">
+      <div className="w-full lg:w-[600px] h-[400px] overflow-hidden border border-orange-500 rounded-lg  ">
         <Image
           src={image}
           alt={title}
