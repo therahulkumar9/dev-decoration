@@ -16,7 +16,8 @@ export default function Home() {
       />
       <HeroSection /> 
       <div className="">
-      <h1 className="text-3xl font-bold ml-20">Birthday Decoration</h1>
+      <h1 className="text-3xl font-bold ml-20 mt-[-40px]">Birthday Decoration </h1>
+      <hr className="mt-2 w-[50%] ml-20 "></hr>
 <BirthdayPage/>
 </div>
 <div>
