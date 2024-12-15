@@ -1,14 +1,14 @@
 "use client";
-import React, { useState, useEffect } from "react"
+import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   HoveredLink,
   Menu,
   MenuItem,
-} from "@/components/ui/Navbar-menu"
-import { cn } from "@/utils/cn"
-import Link from "next/link"
-import { Menu as MenuIcon, X } from "lucide-react"
+} from "@/components/ui/Navbar-menu";
+import { cn } from "@/utils/cn";
+import Link from "next/link";
+import { Menu as MenuIcon, X } from "lucide-react";
 
 const transition = {
   type: "spring",
@@ -20,24 +20,29 @@ const transition = {
 };
 
 function Navbar({ className }: { className?: string }) {
-  const [active, setActive] = useState<string | null>(null)
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [isMobile, setIsMobile] = useState(false)
+  const [active, setActive] = useState<string | null>(null);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 768)
-    }
-    handleResize()
-    window.addEventListener("resize", handleResize)
+      setIsMobile(window.innerWidth < 768);
+    };
+    handleResize();
+    window.addEventListener("resize", handleResize);
     return () => {
-      window.removeEventListener("resize", handleResize)
-    }
-  }, [])
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen)
-  }
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  // Function to close the menu
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
 
   return (
     <div
@@ -54,7 +59,7 @@ function Navbar({ className }: { className?: string }) {
             <div className="font-bold text-lg">Patna Decoration</div>
           </Link>
           <button
-            className="md:hidden transition-transform duration-300 focus:rotate-90"
+            className="md:hidden transition-transform duration-300"
             onClick={toggleMenu}
           >
             {isMenuOpen ? <X /> : <MenuIcon />}
@@ -63,10 +68,10 @@ function Navbar({ className }: { className?: string }) {
       ) : (
         <Menu setActive={setActive}>
           <Link href={"/"}>
-            <MenuItem setActive={setActive} active={active} item="Home"></MenuItem>
+            <MenuItem setActive={setActive} active={active} item="Home" />
           </Link>
           <Link href={"/about"}>
-            <MenuItem setActive={setActive} active={active} item="About"></MenuItem>
+            <MenuItem setActive={setActive} active={active} item="About" />
           </Link>
           <MenuItem setActive={setActive} active={active} item="Decorations">
             <div className="flex flex-col space-y-4 text-sm">
@@ -76,7 +81,7 @@ function Navbar({ className }: { className?: string }) {
             </div>
           </MenuItem>
           <Link href={"/contact"}>
-            <MenuItem setActive={setActive} active={active} item="Contact"></MenuItem>
+            <MenuItem setActive={setActive} active={active} item="Contact" />
           </Link>
         </Menu>
       )}
@@ -89,29 +94,29 @@ function Navbar({ className }: { className?: string }) {
             transition={transition}
             className="absolute top-full left-0 w-full bg-white rounded-b-2xl shadow-lg z-10 px-6 py-4 flex flex-col space-y-4"
           >
-            <Link href={"/"}>
-              <MenuItem setActive={setActive} active={active} item="Home"></MenuItem>
+            <Link href={"/"} onClick={closeMenu}>
+              <MenuItem setActive={setActive} active={active} item="Home" />
             </Link>
-            <Link href={"/birthday-decoration"}>
-              <MenuItem setActive={setActive} active={active} item="Birthday Decoration"></MenuItem>
+            <Link href={"/birthday-decoration"} onClick={closeMenu}>
+              <MenuItem setActive={setActive} active={active} item="Birthday Decoration" />
             </Link>
-            <Link href={"/anniversary-decoration"}>
-              <MenuItem setActive={setActive} active={active} item="Anniversary Decoration"></MenuItem>
+            <Link href={"/anniversary-decoration"} onClick={closeMenu}>
+              <MenuItem setActive={setActive} active={active} item="Anniversary Decoration" />
             </Link>
-            <Link href={"/special-occasion-decorations"}>
-              <MenuItem setActive={setActive} active={active} item="Special Occasion Decorations"></MenuItem>
+            <Link href={"/special-occasion-decorations"} onClick={closeMenu}>
+              <MenuItem setActive={setActive} active={active} item="Special Occasion Decorations" />
             </Link>
-            <Link href={"/about"}>
-              <MenuItem setActive={setActive} active={active} item="About"></MenuItem>
+            <Link href={"/about"} onClick={closeMenu}>
+              <MenuItem setActive={setActive} active={active} item="About" />
             </Link>
-            <Link href={"/contact"}>
-              <MenuItem setActive={setActive} active={active} item="Contact"></MenuItem>
+            <Link href={"/contact"} onClick={closeMenu}>
+              <MenuItem setActive={setActive} active={active} item="Contact" />
             </Link>
           </motion.div>
         </AnimatePresence>
       )}
     </div>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
