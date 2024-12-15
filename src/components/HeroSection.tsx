@@ -1,15 +1,14 @@
 import React from "react"
-import Link from "next/link"
 
 function HeroSection() {
   return (
-    <div className="h-[50%] sm:h-screen sm:top-28  w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden  px-4 py-16 md:py-0">
+    <div className="h-[50%] sm:h-screen sm:top-10  w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden  px-4 py-16 md:py-0">
      
-      <div className="p-4 top-28 relative z-10 w-full text-center">
-        <h1 className="mt-20 md:mt-0 text-5xl md:text-8xl lg:text-9xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
+      <div className="p-4 top-20 relative z-10 w-full text-center">
+        <h1 className="mt-2 md:mt-0 text-5xl md:text-8xl lg:text-9xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
           Dev Decoration
         </h1>
-        <p className="mt-4 text-lg md:text-2xl lg:text-3xl font-normal text-neutral-300 max-w-4xl mx-auto px-4">
+        <p className="mt-2 text-lg md:text-2xl lg:text-3xl font-normal text-neutral-300 max-w-4xl mx-auto px-4">
           Transform your special moments with our magical decoration services.
           From birthdays to anniversaries, we create unforgettable experiences
           that bring your celebrations to life.
@@ -42,13 +41,13 @@ function HeroSection() {
           </div>
         </div>
 
-        <div className="mt-8 md:mt-12 lg:mt-16">
+        {/* <div className="mt-8 md:mt-12 lg:mt-16">
           <Link href={"/services"}>
             <button className="border-2 border-white text-base md:text-lg lg:text-xl px-6 md:px-8 lg:px-10 py-3 md:py-4 bg-black text-white font-bold rounded-full shadow-md hover:bg-white hover:text-black hover:shadow-lg transition-colors duration-300 ease-in-out">
               Explore
             </button>
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   )
