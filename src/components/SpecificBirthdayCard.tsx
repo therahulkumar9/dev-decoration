@@ -16,7 +16,7 @@ export default function BirthdayCard({ title, image, price, description, inclusi
     <div>
       <div className="mt-10 sm:flex items-center justify-center relative top-20 p-10 w-full">
         <div className="border-2 mt-2 border-yellow-400 p-4">
-          <div className="w-screen h-[400px] overflow-hidden">
+          <div className="w-full  lg:w-[600px] h-[400px] border border-orange-500 rounded-lg overflow-hidden">
             <Image
               src={image}
               alt={title}
