@@ -1,104 +1,136 @@
 {
-    "packages": [
-      {
-        "id": 1,
-        "title": "Birthday Balloon Decoration",
-        "slug": "birthday-balloon-decoration",
-        "description": "Celebrate with a beautiful birthday balloon decoration.",
-        "price": 1699,
-        "originalPrice": 1899,
-        "discount": 11,
-        "image": "/birthday/img1.png",
-      "inclusion":"this is about inclusion <div>this is second thing</div> <div> This is third thing </div> <div>This is fourth thing </div> <this is fifth thing</div>"
-      },
-      {
-        "id": 2,
-        "title": "Pink Purple Balloon Surprise",
-        "slug": "pink-purple-balloon-surprise",
-        "description": "A vibrant pink and purple balloon surprise for your birthday.",
-        "price": 1199,
-        "originalPrice": 1299,
-        "discount": 8,
-        "image": "/birthday/img2.png",
-      "inclusion":"this is about inclusion <div>this is second thing</div> <div> This is third thing </div> <div>This is fourth thing </div> <this is fifth thing</div>"
-      },
-      {
-        "id": 3,
-        "title": "Silver Black Birthday Decor With Name",
-        "slug": "silver-black-birthday-decor-with-name",
-        "description": "Elegant silver and black birthday decor with a personalized name.",
-        "price": 2699,
-        "originalPrice": 2899,
-        "discount": 7,
-        "image": "/birthday/img3.png",
-      "inclusion":"this is about inclusion <div>this is second thing</div> <div> This is third thing </div> <div>This is fourth thing </div> <this is fifth thing</div>"
-      },
-      {
-        "id": 4,
-        "title": "Glamourous Birthday Decoration",
-        "slug": "glamourous-birthday-decoration",
-        "description": "A glamorous setup for a spectacular birthday celebration.",
-        "price": 2399,
-        "originalPrice": 2999,
-        "discount": 20,
-        "image": "/birthday/img4.png",
-      "inclusion":"this is about inclusion <div>this is second thing</div> <div> This is third thing </div> <div>This is fourth thing </div> <this is fifth thing</div>"
-      },
-      {
-        "id": 5,
-        "title": "Elegant Wall Birthday Backdrop",
-        "slug": "elegant-wall-birthday-backdrop",
-        "description": "A sophisticated wall backdrop for your birthday celebration.",
-        "price": 2699,
-        "originalPrice": 2999,
-        "discount": 10,
-        "image": "/birthday/img5.png",
-      "inclusion":"this is about inclusion <div>this is second thing</div> <div> This is third thing </div> <div>This is fourth thing </div> <this is fifth thing</div>"
-      },
-      {
-        "id": 6,
-        "title": "Shiny Birthday Decoration",
-        "slug": "shiny-birthday-decoration",
-        "description": "A shiny and eye-catching decoration for your birthday party.",
-        "price": 1799,
-        "originalPrice": 1999,
-        "discount": 10,
-        "image": "/birthday/img6.png",
-      "inclusion":"this is about inclusion <div>this is second thing</div> <div> This is third thing </div> <div>This is fourth thing </div> <this is fifth thing</div>"
-      },
-      {
-        "id": 7,
-        "title": "Rose-gold Sequin Curtains Decoration",
-        "slug": "rose-gold-sequin-curtains-decoration",
-        "description": "Beautiful rose-gold sequin curtains for a stunning birthday backdrop.",
-        "price": 3799,
-        "originalPrice": 4099,
-        "discount": 7,
-        "image": "/birthday/img7.png",
-      "inclusion":"this is about inclusion <div>this is second thing</div> <div> This is third thing </div> <div>This is fourth thing </div> <this is fifth thing</div>"
-      },
-      {
-        "id": 8,
-        "title": "Ice-cream Theme Birthday Decoration",
-        "slug": "ice-cream-theme-birthday-decoration",
-        "description": "An ice-cream themed decoration for a sweet birthday celebration.",
-        "price": 2499,
-        "originalPrice": 2799,
-        "discount": 11,
-        "image": "/birthday/img8.png",
-      "inclusion":"this is about inclusion <div>this is second thing</div> <div> This is third thing </div> <div>This is fourth thing </div> <this is fifth thing</div>"
-      },
-      {
-        "id": 9,
-        "title": "Cute Masha Birthday Decor",
-        "slug": "cute-masha-birthday-decor",
-        "description": "A cute Masha themed decoration for your birthday.",
-        "price": 1999,
-        "originalPrice": 2499,
-        "discount": 20,
-        "image": "/birthday/img9.png",
-      "inclusion":"this is about inclusion <div>this is second thing</div> <div> This is third thing </div> <div>This is fourth thing </div> <this is fifth thing</div>"
-      }
-    ]
-  }
-  
+  "packages": [
+    {
+      "id": 1,
+      "title": "Merry Christmas Garland Decoration",
+      "slug": "merry-christmas-garland-decoration",
+      "description": "Celebrate the season with a festive garland decoration for Christmas.",
+      "price": 3349,
+      "originalPrice": 3849,
+      "discount": 13,
+      "image": "/christmas/img1.png",
+      "inclusion":"this is about inclusion"
+    },
+    {
+      "id": 2,
+      "title": "Christmas Theme Decoration",
+      "slug": "christmas-theme-decoration",
+      "description": "A beautiful Christmas-themed decoration for your celebration.",
+      "price": 2499,
+      "originalPrice": null,
+      "discount": 0,
+      "image": "/christmas/img2.png",
+      "inclusion":"this is about inclusion"
+    },
+    {
+      "id": 3,
+      "title": "Merry Christmas Holiday Decoration",
+      "slug": "merry-christmas-holiday-decoration",
+      "description": "Holiday-themed Christmas decoration to add cheer to your space.",
+      "price": 2499,
+      "originalPrice": 2999,
+      "discount": 17,
+      "image": "/christmas/img3.png",
+      "inclusion":"this is about inclusion"
+    },
+    {
+      "id": 4,
+      "title": "Merry Christmas Theme Backdrop",
+      "slug": "merry-christmas-theme-backdrop",
+      "description": "A stunning backdrop to complement your Merry Christmas theme.",
+      "price": 2349,
+      "originalPrice": 2999,
+      "discount": 22,
+      "image": "/christmas/img4.png",
+      "inclusion":"this is about inclusion"
+    },
+    {
+      "id": 5,
+      "title": "Christmas Backdrop Decoration",
+      "slug": "christmas-backdrop-decoration",
+      "description": "A festive backdrop decoration perfect for Christmas parties.",
+      "price": 1499,
+      "originalPrice": 1699,
+      "discount": 12,
+      "image": "/christmas/img5.png",
+      "inclusion":"this is about inclusion"
+    },
+    {
+      "id": 6,
+      "title": "Stylish Golden Black New Year Decor",
+      "slug": "stylish-golden-black-new-year-decor",
+      "description": "Celebrate the New Year in style with golden and black decor.",
+      "price": 2699,
+      "originalPrice": 3199,
+      "discount": 16,
+      "image": "/newyear/img1.png",
+      "inclusion":"this is about inclusion"
+    },
+    {
+      "id": 7,
+      "title": "New Year Backdrop Decoration",
+      "slug": "new-year-backdrop-decoration",
+      "description": "A beautiful backdrop to ring in the New Year.",
+      "price": 3899,
+      "originalPrice": 4199,
+      "discount": 7,
+      "image": "/newyear/img2.png",
+      "inclusion":"this is about inclusion"
+    },
+    {
+      "id": 8,
+      "title": "New Year Party Decoration",
+      "slug": "new-year-party-decoration",
+      "description": "Perfect decoration for a vibrant New Year party.",
+      "price": 1599,
+      "originalPrice": 1949,
+      "discount": 18,
+      "image": "/newyear/img3.png",
+      "inclusion":"this is about inclusion"
+    },
+    {
+      "id": 9,
+      "title": "New Year Party Surprise Decoration",
+      "slug": "new-year-party-surprise-decoration",
+      "description": "A surprise New Year party decoration to amaze your guests.",
+      "price": 2499,
+      "originalPrice": 2999,
+      "discount": 17,
+      "image": "/newyear/img4.png",
+      "inclusion":"this is about inclusion"
+    },
+    {
+      "id": 10,
+      "title": "New Year Marquee Surprise",
+      "slug": "new-year-marquee-surprise",
+      "description": "A marquee surprise for a grand New Year celebration.",
+      "price": 1669,
+      "originalPrice": 1949,
+      "discount": 14,
+      "image": "/newyear/img5.png",
+      "inclusion":"this is about inclusion"
+    },
+    {
+      "id": 11,
+      "title": "Independence Day Special Decor",
+      "slug": "independence-day-special-decor",
+      "description": "A patriotic decoration for your Independence Day celebration.",
+      "price": 2799,
+      "originalPrice": 3299,
+      "discount": 15,
+      "image": "/independenceday/img1.png",
+      "inclusion":"this is about inclusion"
+    },
+    {
+      "id": 13,
+      "title": "Diwali Special Decoration",
+      "slug": "diwali-special-decoration",
+      "description": "Celebrate Diwali with a stunning special decoration.",
+      "price": 2999,
+      "originalPrice": 3499,
+      "discount": 14,
+      "image": "/diwali/img1.png",
+      "inclusion":"this is about inclusion"
+    }
+  ]
+}
