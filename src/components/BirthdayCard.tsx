@@ -3,6 +3,7 @@
 import React from "react"
 import Image from "next/image"
 import { motion } from "framer-motion"
+import Footer from "./Footer"
 
 interface BirthdayCardProps {
   title: string
@@ -86,6 +87,7 @@ const BirthdayCard: React.FC<BirthdayCardProps> = ({
           </p>
         </div>
       </div>
+      
     </motion.div>
   )
 }

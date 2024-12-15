@@ -1,5 +1,6 @@
 import Image from "next/image"
 import WhatsappButton from "./WhatsappButton"
+import Footer from "./Footer"
 
 interface AnniversaryCardProps {
   title: string
@@ -20,7 +21,7 @@ export default function AnniversarySpecificCard({
   return (
     <div>
     <div className="mt-10 sm:flex items-center justify-center relative top-20 p-10 w-full">
-      <div className="w-[600px] h-[400px] overflow-hidden">
+      <div className="w-screen h-[400px] overflow-hidden">
         <Image
           src={image}
           alt={title}
@@ -32,11 +33,11 @@ export default function AnniversarySpecificCard({
       <div className="mt-2 pl-5 p-4">
         <h1 className=" mt-2 font-semibold">{title}</h1>
         <p>{description}</p>
-        <h2 className="text-green-500 text-md font-bold mb-3">₹ {price}</h2>
+        <h2 className="text-green-500 text-3xl font-bold mb-3">₹ {price}</h2>
         <WhatsappButton />
       </div>
     </div>
-     <div className="ml-20 mt-20">
+     <div className="p-10 mt-10">
      <div className="">
        <h1 className="w-full bg-gray-400 text-black text-xl p-3 rounded-lg border border-none mb-3">Inclusion</h1>
        <div dangerouslySetInnerHTML={{ __html: inclusion }} />
@@ -47,6 +48,7 @@ export default function AnniversarySpecificCard({
        <div dangerouslySetInnerHTML={{ __html: description }} />
      </div>
    </div>
+   <Footer/>
    </div>
   )
 }
