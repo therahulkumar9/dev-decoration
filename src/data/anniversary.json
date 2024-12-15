@@ -8,7 +8,8 @@
       "price": 3499,
       "originalPrice": 3999,
       "discount": 13,
-      "image": "/anniversary/img1.png"
+      "image": "/anniversary/img1.png",
+      "inclusion":"this is about inclusion <div>this is second thing</div> <div> This is third thing </div> <div>This is fourth thing </div> <this is fifth thing</div>"
     },
     {
       "id": 2,
@@ -18,7 +19,8 @@
       "price": 1999,
       "originalPrice": 2399,
       "discount": 17,
-      "image": "/anniversary/img2.png"
+      "image": "/anniversary/img2.png",
+      "inclusion":"this is about inclusion <div>this is second thing</div> <div> This is third thing </div> <div>This is fourth thing </div> <this is fifth thing</div>"
     },
     {
       "id": 3,
@@ -28,7 +30,8 @@
       "price": 1399,
       "originalPrice": 1599,
       "discount": 13,
-      "image": "/anniversary/img3.png"
+      "image": "/anniversary/img3.png",
+      "inclusion":"this is about inclusion <div>this is second thing</div> <div> This is third thing </div> <div>This is fourth thing </div> <this is fifth thing</div>"
     },
     {
       "id": 4,
@@ -38,7 +41,8 @@
       "price": 4499,
       "originalPrice": 4999,
       "discount": 10,
-      "image": "/anniversary/img4.png"
+      "image": "/anniversary/img4.png",
+      "inclusion":"this is about inclusion <div>this is second thing</div> <div> This is third thing </div> <div>This is fourth thing </div> <this is fifth thing</div>"
     },
     {
       "id": 5,
@@ -48,7 +52,8 @@
       "price": 1999,
       "originalPrice": 2499,
       "discount": 20,
-      "image": "/anniversary/img5.png"
+      "image": "/anniversary/img5.png",
+      "inclusion":"this is about inclusion <div>this is second thing</div> <div> This is third thing </div> <div>This is fourth thing </div> <this is fifth thing</div>"
     },
     {
       "id": 6,
@@ -58,7 +63,8 @@
       "price": 2549,
       "originalPrice": 2699,
       "discount": 6,
-      "image": "/anniversary/img6.png"
+      "image": "/anniversary/img6.png",
+      "inclusion":"this is about inclusion <div>this is second thing</div> <div> This is third thing </div> <div>This is fourth thing </div> <this is fifth thing</div>"
     },
     {
       "id": 7,
@@ -68,7 +74,8 @@
       "price": 1899,
       "originalPrice": 2299,
       "discount": 17,
-      "image": "/anniversary/img7.png"
+      "image": "/anniversary/img7.png",
+      "inclusion":"this is about inclusion <div>this is second thing</div> <div> This is third thing </div> <div>This is fourth thing </div> <this is fifth thing</div>"
     },
     {
       "id": 8,
@@ -78,7 +85,8 @@
       "price": 2999,
       "originalPrice": 3699,
       "discount": 19,
-      "image": "/anniversary/img8.png"
+      "image": "/anniversary/img8.png",
+      "inclusion":"this is about inclusion <div>this is second thing</div> <div> This is third thing </div> <div>This is fourth thing </div> <this is fifth thing</div>"
     },
     {
       "id": 9,
@@ -88,7 +96,8 @@
       "price": 4499,
       "originalPrice": 5799,
       "discount": 22,
-      "image": "/anniversary/img9.png"
+      "image": "/anniversary/img9.png",
+      "inclusion":"this is about inclusion <div>this is second thing</div> <div> This is third thing </div> <div>This is fourth thing </div> <this is fifth thing</div>"
     }
   ]
 }

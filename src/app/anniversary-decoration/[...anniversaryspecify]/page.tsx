@@ -10,6 +10,7 @@ interface DecorationPackage {
   description: string;
   price:number;
   image:string;
+  inclusion:string;
   
 
 
@@ -32,7 +33,7 @@ export default function AnniversarySpecific() {
         {filterdata.length > 0 ? (
           filterdata.map((item) => (
             <div key={item.id}>
-              <AnniversarySpecificCard title={item.title} price={item.price} image={item.image} id={item.id} description={item.description}/>
+              <AnniversarySpecificCard  inclusion={item.inclusion} title={item.title} price={item.price} image={item.image} id={item.id} description={item.description}/>
             </div>
           ))
         ) : (
