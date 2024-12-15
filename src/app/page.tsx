@@ -16,16 +16,15 @@ export default function Home() {
       />
       <HeroSection /> 
       <div className="">
-      <h1 className="text-3xl font-bold ml-20 mt-[-40px]">Birthday Decoration </h1>
-      <hr className="mt-2 w-[50%] ml-20 "></hr>
+      <h1 className="text-3xl font-bold ml-20  lg:mt-40 mt-10 mb-[-84px]">Birthday Decoration </h1>
 <BirthdayPage/>
 </div>
 <div>
-<h1 className="text-3xl font-bold ml-20">Anniversary Decoration</h1>
+<h1 className="text-3xl font-bold mt-8 ml-20 mb-[-84px]">Anniversary Decoration</h1>
 <Anniversary/>
 </div>
 <div>
-<h1 className="text-3xl font-bold ml-20">Special Occasion Decoration</h1>
+<h1 className="text-3xl font-bold mt-8 ml-20 mb-[-84px]">Special Decoration</h1>
 <SpecialOccasionPage/>
 </div>
       <Footer />
