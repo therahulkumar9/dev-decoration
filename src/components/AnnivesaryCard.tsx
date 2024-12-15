@@ -3,6 +3,7 @@
 import React from "react"
 import Image from "next/image"
 import { motion } from "framer-motion"
+import Footer from "./Footer"
 
 interface AnniversaryCardProps {
   title: string
@@ -60,7 +61,9 @@ const AnniversaryCard: React.FC<AnniversaryCardProps> = ({
           ₹ {price.toLocaleString()}
         </p>
       </div>
+      
     </motion.div>
+    
   )
 }
 
