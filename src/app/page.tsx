@@ -4,6 +4,8 @@ import Footer from "@/components/Footer";
 import BirthdayPage from "@/app/birthday-decoration/page";
 import Anniversary from "@/app/anniversary-decoration/page"
 import SpecialOccasionPage from "@/app/special-occasion-decorations/page"
+import ImageSlider from "@/components/ImageSlider";
+
 
 export default function Home() {
   return (

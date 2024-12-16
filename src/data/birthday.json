@@ -9,7 +9,10 @@
       "originalPrice": 1899,
       "discount": 11,
       "image": "/birthday/img1.png",
-      "inclusion":"this is about inclusion <div>this is second thing</div> <div> This is third thing </div> <div>This is fourth thing </div> <this is fifth thing</div>"
+      "image1": "/birthday/img1.png",
+      "image2": "/birthday/img2.png",
+      "image3": "/birthday/img3.png",
+      "inclusion": "this is about inclusion <div>this is second thing</div> <div> This is third thing </div> <div>This is fourth thing </div> <div>this is fifth thing</div>"
     },
     {
       "id": 2,
@@ -20,8 +23,10 @@
       "originalPrice": 1299,
       "discount": 8,
       "image": "/birthday/img2.png",
-      "inclusion":"this is about inclusion"
-
+      "image1": "/birthday/img1.png",
+      "image2": "/birthday/img2.png",
+      "image3": "/birthday/img3.png",
+      "inclusion": "this is about inclusion"
     },
     {
       "id": 3,
@@ -32,8 +37,10 @@
       "originalPrice": 2899,
       "discount": 7,
       "image": "/birthday/img3.png",
-      "inclusion":"this is about inclusion"
-
+      "image1": "/birthday/img1.png",
+      "image2": "/birthday/img2.png",
+      "image3": "/birthday/img3.png",
+      "inclusion": "this is about inclusion"
     },
     {
       "id": 4,
@@ -44,8 +51,10 @@
       "originalPrice": 2999,
       "discount": 20,
       "image": "/birthday/img4.png",
-      "inclusion":"this is about inclusion"
-
+      "image1": "/birthday/img1.png",
+      "image2": "/birthday/img2.png",
+      "image3": "/birthday/img3.png",
+      "inclusion": "this is about inclusion"
     },
     {
       "id": 5,
@@ -56,8 +65,10 @@
       "originalPrice": 2999,
       "discount": 10,
       "image": "/birthday/img5.png",
-      "inclusion":"this is about inclusion"
-
+      "image1": "/birthday/img1.png",
+      "image2": "/birthday/img2.png",
+      "image3": "/birthday/img3.png",
+      "inclusion": "this is about inclusion"
     },
     {
       "id": 6,
@@ -68,8 +79,10 @@
       "originalPrice": 1999,
       "discount": 10,
       "image": "/birthday/img6.png",
-      "inclusion":"this is about inclusion"
-
+      "image1": "/birthday/img1.png",
+      "image2": "/birthday/img2.png",
+      "image3": "/birthday/img3.png",
+      "inclusion": "this is about inclusion"
     },
     {
       "id": 7,
@@ -80,8 +93,10 @@
       "originalPrice": 4099,
       "discount": 7,
       "image": "/birthday/img7.png",
-      "inclusion":"this is about inclusion"
-
+      "image1": "/birthday/img1.png",
+      "image2": "/birthday/img2.png",
+      "image3": "/birthday/img3.png",
+      "inclusion": "this is about inclusion"
     },
     {
       "id": 8,
@@ -92,8 +107,10 @@
       "originalPrice": 2799,
       "discount": 11,
       "image": "/birthday/img8.png",
-      "inclusion":"this is about inclusion"
-
+      "image1": "/birthday/img1.png",
+      "image2": "/birthday/img2.png",
+      "image3": "/birthday/img3.png",
+      "inclusion": "this is about inclusion"
     },
     {
       "id": 9,
@@ -104,8 +121,10 @@
       "originalPrice": 2499,
       "discount": 20,
       "image": "/birthday/img9.png",
-      "inclusion":"this is about inclusion"
-
+      "image1": "/birthday/img1.png",
+      "image2": "/birthday/img2.png",
+      "image3": "/birthday/img3.png",
+      "inclusion": "this is about inclusion"
     }
   ]
 }
