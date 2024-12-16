@@ -4,7 +4,7 @@ import WhatsappButton from "./WhatsappButton"
 import CallButton from "./CallButton"
 import Footer from "./Footer"
 
-import { useState, useEffect, JSX } from "react"
+import { useState, useEffect, useCallback, JSX } from "react"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 
 // Type definition for props
@@ -44,14 +44,14 @@ export default function BirthdayCard({
   // State to track if the image is being hovered over
   const [isHovered, setIsHovered] = useState<boolean>(false)
 
+  // Wrap the nextSlide function with useCallback to avoid missing dependency in useEffect
+  const nextSlide = useCallback(() => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length)
+  }, [images.length])
+
   // Function to show the previous slide
   const prevSlide = (): void => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length)
-  }
-
-  // Function to show the next slide
-  const nextSlide = (): void => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length)
   }
 
   // useEffect hook to handle automatic slide transition
@@ -63,7 +63,7 @@ export default function BirthdayCard({
       // Cleanup the interval on component unmount
       return () => clearInterval(interval)
     }
-  }, [isHovered])  // Only depend on `isHovered`
+  }, [nextSlide, isHovered])  // Depend on nextSlide and isHovered
 
   // Handle mouse over event
   const handleMouseOver = (): void => {
