@@ -2,52 +2,37 @@ import React from "react"
 
 function HeroSection() {
   return (
-    <div className="h-[50%] sm:h-screen sm:top-10  w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden  px-4 py-16 md:py-0">
-     
-      <div className="p-4 top-20 relative z-10 w-full text-center">
-        <h1 className="mt-2 md:mt-0 text-5xl md:text-8xl lg:text-9xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
+    <div className="relative w-full min-h-[100%]  flex flex-col items-center justify-center overflow-hidden px-4 py-16 md:py-0 bg-black">
+      <div className="relative z-10 w-full sm:mt-0 mt-[-66px] max-w-7xl mx-auto text-center px-4">
+        <h1 className="text-4xl mt-32 sm:text-5xl md:text-3xl lg:text-3xl xl:text-8xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 leading-tight mb-4">
           Dev Decoration
         </h1>
-        <p className="mt-2 text-lg md:text-2xl lg:text-3xl font-normal text-neutral-300 max-w-4xl mx-auto px-4">
+        
+        <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-normal text-neutral-300 max-w-4xl mx-auto mb-8 px-4">
           Transform your special moments with our magical decoration services.
-          From birthdays to anniversaries, we create unforgettable experiences
-          that bring your celebrations to life.
+          From birthdays to anniversaries, we create unforgettable experiences.
         </p>
 
-        <div className="mt-8 md:mt-12 lg:mt-16 flex flex-wrap justify-center space-x-4 md:space-x-8 lg:space-x-12">
-          <div className="flex flex-col items-center mb-4 md:mb-0">
-            <div className="text-6xl md:text-7xl lg:text-8xl">🎂</div>
-            <span className="text-lg md:text-xl lg:text-2xl text-neutral-300 mt-2">
-              Birthday
-            </span>
-          </div>
-          <div className="flex flex-col items-center mb-4 md:mb-0">
-            <div className="text-6xl md:text-7xl lg:text-8xl">❤️</div>
-            <span className="text-lg md:text-xl lg:text-2xl text-neutral-300 mt-2">
-              Anniversary
-            </span>
-          </div>
-          <div className="flex flex-col items-center mb-4 md:mb-0">
-            <div className="text-6xl md:text-7xl lg:text-8xl">🥳</div>
-            <span className="text-lg md:text-xl lg:text-2xl text-neutral-300 mt-2">
-              Special Occasions
-            </span>
-          </div>
-          <div className="flex flex-col items-center mb-4 md:mb-0">
-            <div className="text-6xl md:text-7xl lg:text-8xl">🧸</div>
-            <span className="text-lg md:text-xl lg:text-2xl text-neutral-300 mt-2">
-              Kids Birthday
-            </span>
-          </div>
+        <div className="grid sm:mb-0 mb-[-30px] grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 max-w-4xl mx-auto">
+          {[
+            { emoji: "🎂", text: "Birthday" },
+            { emoji: "❤️", text: "Anniversary" },
+            { emoji: "🥳", text: "Special Occasions" },
+            { emoji: "🧸", text: "Kids Birthday" }
+          ].map((item, index) => (
+            <div 
+              key={index} 
+              className="flex flex-col items-center justify-center text-center p-2 sm:p-4"
+            >
+              <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-2">
+                {item.emoji}
+              </div>
+              <span className="text-sm sm:text-base md:text-lg text-neutral-300">
+                {item.text}
+              </span>
+            </div>
+          ))}
         </div>
-
-        {/* <div className="mt-8 md:mt-12 lg:mt-16">
-          <Link href={"/services"}>
-            <button className="border-2 border-white text-base md:text-lg lg:text-xl px-6 md:px-8 lg:px-10 py-3 md:py-4 bg-black text-white font-bold rounded-full shadow-md hover:bg-white hover:text-black hover:shadow-lg transition-colors duration-300 ease-in-out">
-              Explore
-            </button>
-          </Link>
-        </div> */}
       </div>
     </div>
   )
