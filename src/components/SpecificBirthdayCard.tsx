@@ -1,21 +1,27 @@
-"use client";
-import Image from "next/image";
-import WhatsappButton from "./WhatsappButton";
-import CallButton from "./CallButton";
-import Footer from "./Footer";
+"use client"
+import Image from "next/image"
+import WhatsappButton from "./WhatsappButton"
+import CallButton from "./CallButton"
+import Footer from "./Footer"
 
-import { useState, useEffect, JSX } from "react";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { useState, useEffect, JSX } from "react"
+import { ChevronLeft, ChevronRight } from "lucide-react"
 
+// Type definition for props
 interface BirthdayCardProps {
-  title: string;
-  image1: string;   // Change to string, path to an image
-  image2: string;   // Change to string, path to an image
-  image3: string;   // Change to string, path to an image
-  price: number;
-  id: number;
-  description: string;
-  inclusion: string;
+  title: string
+  image1: string
+  image2: string
+  image3: string
+  price: number
+  id: number
+  description: string
+  inclusion: string
+}
+
+// Type definition for image objects
+interface ImageItem {
+  src: string
 }
 
 export default function BirthdayCard({
@@ -27,51 +33,47 @@ export default function BirthdayCard({
   description,
   inclusion,
 }: BirthdayCardProps): JSX.Element {
-  const images = [
+  const images: ImageItem[] = [
     { src: image1 },
     { src: image2 },
     { src: image3 },
-  ];
+  ]
 
-  const [currentIndex, setCurrentIndex] = useState<number>(0);
+  const [currentIndex, setCurrentIndex] = useState<number>(0)
 
-  // State to determine if the image is being hovered over
-  const [isHovered, setIsHovered] = useState<boolean>(false);
+  // State to track if the image is being hovered over
+  const [isHovered, setIsHovered] = useState<boolean>(false)
 
   // Function to show the previous slide
   const prevSlide = (): void => {
-    setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
-  };
+    setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length)
+  }
 
   // Function to show the next slide
   const nextSlide = (): void => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-  };
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length)
+  }
 
   // useEffect hook to handle automatic slide transition
   useEffect(() => {
     // Start interval for automatic slide change if not hovered
     if (!isHovered) {
-      const interval = setInterval(() => {
-        nextSlide();
-      }, 3000);
+      const interval = setInterval(nextSlide, 3000)
 
       // Cleanup the interval on component unmount
-      return () => {
-        clearInterval(interval);
-      };
+      return () => clearInterval(interval)
     }
-  }, [isHovered]);
+  }, [isHovered])  // Only depend on `isHovered`
 
   // Handle mouse over event
   const handleMouseOver = (): void => {
-    setIsHovered(true);
-  };
+    setIsHovered(true)
+  }
 
   // Handle mouse leave event
   const handleMouseLeave = (): void => {
-    setIsHovered(false);
-  };
+    setIsHovered(false)
+  }
 
   return (
     <div>
@@ -91,12 +93,14 @@ export default function BirthdayCard({
             />
           </div>
           <button
+            title="previous-slide"
             className="absolute left-0 top-1/2 transform rounded-xl hover:bg-[#1a222f] mx-1 -mt-[10px] -translate-y-1/2 bg-[#111927] text-white p-2 group"
             onClick={prevSlide}
           >
             <ChevronLeft className="text-gray-400 group-hover:text-white" />
           </button>
           <button
+            title="next-slide"
             className="absolute right-0 top-1/2 transform rounded-xl hover:bg-[#1a222f] mx-1 -mt-[10px] -translate-y-1/2 bg-[#111927] text-white p-2 group"
             onClick={nextSlide}
           >
@@ -126,7 +130,7 @@ export default function BirthdayCard({
         </div>
       </div>
       <div className="p-10 mt-20">
-        <div className="">
+        <div>
           <h1 className="w-full bg-gray-400 text-black text-xl p-3 rounded-lg border border-none mb-3">
             Inclusion
           </h1>
@@ -141,5 +145,5 @@ export default function BirthdayCard({
       </div>
       <Footer />
     </div>
-  );
+  )
 }
