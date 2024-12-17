@@ -1,3 +1,4 @@
+
 "use client"
 import Image from "next/image"
 import WhatsappButton from "./WhatsappButton"
@@ -58,6 +59,7 @@ export default function BirthdayCard({
   useEffect(() => {
     // Start interval for automatic slide change if not hovered
     if (!isHovered) {
+
       const interval = setInterval(nextSlide, 3000)
 
       // Cleanup the interval on component unmount
@@ -93,14 +95,18 @@ export default function BirthdayCard({
             />
           </div>
           <button
+
             title="previous-slide"
+
             className="absolute left-0 top-1/2 transform rounded-xl hover:bg-[#1a222f] mx-1 -mt-[10px] -translate-y-1/2 bg-[#111927] text-white p-2 group"
             onClick={prevSlide}
           >
             <ChevronLeft className="text-gray-400 group-hover:text-white" />
           </button>
           <button
+
             title="next-slide"
+
             className="absolute right-0 top-1/2 transform rounded-xl hover:bg-[#1a222f] mx-1 -mt-[10px] -translate-y-1/2 bg-[#111927] text-white p-2 group"
             onClick={nextSlide}
           >
@@ -130,7 +136,9 @@ export default function BirthdayCard({
         </div>
       </div>
       <div className="p-10 mt-20">
+
         <div>
+
           <h1 className="w-full bg-gray-400 text-black text-xl p-3 rounded-lg border border-none mb-3">
             Inclusion
           </h1>
@@ -146,4 +154,5 @@ export default function BirthdayCard({
       <Footer />
     </div>
   )
+
 }
