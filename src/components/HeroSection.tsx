@@ -4,7 +4,7 @@ function HeroSection() {
   return (
     <div className="relative w-full min-h-[100%]  flex flex-col items-center justify-center overflow-hidden px-4 py-16 md:py-0 bg-black">
       <div className="relative z-10 w-full sm:mt-0 mt-[-66px] max-w-7xl mx-auto text-center px-4">
-        <h1 className="text-4xl mt-32 sm:text-5xl md:text-3xl lg:text-3xl xl:text-8xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 leading-tight mb-4">
+        <h1 className="text-4xl mt-32 sm:text-5xl md:text-5xl lg:text-6xl xl:text-8xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 leading-tight mb-4">
           Dev Decoration
         </h1>
         
