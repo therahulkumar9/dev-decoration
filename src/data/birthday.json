@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Birthday Balloon Decoration",
       "slug": "birthday-balloon-decoration",
-      "description": "Celebrate with a beautiful birthday balloon decoration.",
+      "description": "Make your birthday celebration more special and giant with this birthday balloon decoration, and give a surprise to your special ones.",
       "price": 1699,
       "originalPrice": 1899,
       "discount": 11,
@@ -12,13 +12,23 @@
       "image1": "/birthday/img1.png",
       "image2": "/birthday/img2.png",
       "image3": "/birthday/img3.png",
-      "inclusion": "this is about inclusion <div>this is second thing</div> <div> This is third thing </div> <div>This is fourth thing </div> <div>this is fifth thing</div>"
+      "inclusion": [
+        "160 Metallic Balloons",
+        "40 Balloons will be Stick on the ceiling with removable paper tapes",
+        "\"Happy Birthday\" Occasion Foil Banner [can be replaced with \"Happy Anniversary\" and \"I Love U\"]",
+        "Ribbons to hang with balloons",
+        "Inclusive of all taxes and conveyance charges"
+      ],
+      "additionalOptions": [
+        "You can add more material in the package by paying separately",
+        "Balloons color can be changed as per your choice"
+      ]
     },
     {
       "id": 2,
       "title": "Pink Purple Balloon Surprise",
       "slug": "pink-purple-balloon-surprise",
-      "description": "A vibrant pink and purple balloon surprise for your birthday.",
+      "description": "Birthday balloon decoration for making your birthday more special with some bubbly balloons. Balloon decorations are best and perfect for birthday and anniversary parties.",
       "price": 1199,
       "originalPrice": 1299,
       "discount": 8,
@@ -26,13 +36,23 @@
       "image1": "/birthday/img1.png",
       "image2": "/birthday/img2.png",
       "image3": "/birthday/img3.png",
-      "inclusion": "this is about inclusion"
+      "inclusion": [
+        "100 Pink and Purple Metallic Balloons",
+        "30-40 Balloons will be stuck on the ceiling with removable paper tapes",
+        "\"Happy Birthday\" Occasion Foil Banner [can be replaced with \"Happy Anniversary\", \"Welcome\" and \"I Love You\"]",
+        "Ribbons to hang with balloons",
+        "Inclusive of all taxes and conveyance charges"
+      ],
+      "additionalOptions": [
+        "You can add more material in the package by paying separately",
+        "Balloons color can be changed as per your choice"
+      ]
     },
     {
       "id": 3,
       "title": "Silver Black Birthday Decor With Name",
       "slug": "silver-black-birthday-decor-with-name",
-      "description": "Elegant silver and black birthday decor with a personalized name.",
+      "description": "Surprise someone with this Beautiful Garland backdrop of golden and black balloon combination on his or her birthday.",
       "price": 2699,
       "originalPrice": 2899,
       "discount": 7,
@@ -40,13 +60,28 @@
       "image1": "/birthday/img1.png",
       "image2": "/birthday/img2.png",
       "image3": "/birthday/img3.png",
-      "inclusion": "this is about inclusion"
+      "inclusion": [
+        "200 Metallic Balloons [100 Black and 100 Silver, to make a garland and 1 standee]",
+        "50 Chrome Balloons [Mixed Color]",
+        "\"Happy Birthday\" Occasion Foil Banner",
+        "Age Number Foil [16 inch]",
+        "Name Letter Foil [5-6 Alphabets Only]",
+        "1 Set of Black Metallic Curtains",
+        "1 Champagne Bottle Foil",
+        "2 Star Foils",
+        "Ribbons to Hang with balloons",
+        "Inclusive of all taxes and conveyance charges"
+      ],
+      "additionalOptions": [
+        "You can add more material in the package by paying separately",
+        "Balloons color can be changed as per your choice"
+      ]
     },
     {
       "id": 4,
       "title": "Glamourous Birthday Decoration",
       "slug": "glamourous-birthday-decoration",
-      "description": "A glamorous setup for a spectacular birthday celebration.",
+      "description": "Beautiful golden black garland decoration for making your birthday more glorious and glamorous with balloons.",
       "price": 2399,
       "originalPrice": 2999,
       "discount": 20,
@@ -54,13 +89,26 @@
       "image1": "/birthday/img1.png",
       "image2": "/birthday/img2.png",
       "image3": "/birthday/img3.png",
-      "inclusion": "this is about inclusion"
+      "inclusion": [
+        "100 Metallic Balloons [Black, to make a garland and a standee]",
+        "100 Chrome Balloons [Golden, to make a garland and a standee]",
+        "\"Happy Birthday\" Paper Bunting",
+        "Age Number Foil [16 inch]",
+        "5 Confetti Balloons",
+        "1 Fairy Light",
+        "Ribbons to hang with balloons",
+        "Inclusive of all taxes and conveyance charges"
+      ],
+      "additionalOptions": [
+        "You can add more material in the package by paying separately",
+        "Balloons color can be changed as per your choice"
+      ]
     },
     {
       "id": 5,
       "title": "Elegant Wall Birthday Backdrop",
       "slug": "elegant-wall-birthday-backdrop",
-      "description": "A sophisticated wall backdrop for your birthday celebration.",
+      "description": "Beautiful Pink and Silver Theme Decoration for Birthday Party Celebration at Home, Make their birthday celebration more brighter and dazzling with this amazing balloons design theme.",
       "price": 2699,
       "originalPrice": 2999,
       "discount": 10,
@@ -68,13 +116,27 @@
       "image1": "/birthday/img1.png",
       "image2": "/birthday/img2.png",
       "image3": "/birthday/img3.png",
-      "inclusion": "this is about inclusion"
+      "inclusion": [
+        "200 Chrome Balloons [100 Pink and 100 Silver to make a design on wall]",
+        "6 Confetti Balloons",
+        "\"Happy Birthday\" Cursive Bunting",
+        "Age Number Foil [16 inch]",
+        "1 Set of Silver and Pink Metallic Curtains",
+        "3 Small Star Foils [2 Silver and 1 Golden]",
+        "1 Silver Big Star Foil [16 inch]",
+        "Ribbons to hang with balloons",
+        "Inclusive of all taxes and conveyance charges"
+      ],
+      "additionalOptions": [
+        "You can add more material in the package by paying separately",
+        "Balloons color can be changed as per your choice"
+      ]
     },
     {
       "id": 6,
       "title": "Shiny Birthday Decoration",
       "slug": "shiny-birthday-decoration",
-      "description": "A shiny and eye-catching decoration for your birthday party.",
+      "description": "A beautiful and attractive Decoration with chrome balloons and fairy lights. Make your room more beautiful and celebration more special with this balloon Decoration.",
       "price": 1799,
       "originalPrice": 1999,
       "discount": 10,
@@ -82,13 +144,24 @@
       "image1": "/birthday/img1.png",
       "image2": "/birthday/img2.png",
       "image3": "/birthday/img3.png",
-      "inclusion": "this is about inclusion"
+      "inclusion": [
+        "60 Chrome Balloons [40 Purple and 40 Silver, will stick on wall as bunches]",
+        "30-40 Balloons will be Stick on the ceiling with removable paper tapes",
+        "\"Happy Birthday\" Occasion Foil Banner",
+        "2 Star Foils [16 inch]",
+        "Ribbons to hang with balloons",
+        "Inclusive of all taxes and conveyance charges"
+      ],
+      "additionalOptions": [
+        "You can add more material in the package by paying separately",
+        "Balloons color can be changed as per your choice"
+      ]
     },
     {
       "id": 7,
       "title": "Rose-gold Sequin Curtains Decoration",
       "slug": "rose-gold-sequin-curtains-decoration",
-      "description": "Beautiful rose-gold sequin curtains for a stunning birthday backdrop.",
+      "description": "Surprise your kids with this beautiful and lovely sequin curtain decoration with rose-gold balloons make their birthday celebration more glorious.",
       "price": 3799,
       "originalPrice": 4099,
       "discount": 7,
@@ -96,13 +169,26 @@
       "image1": "/birthday/img1.png",
       "image2": "/birthday/img2.png",
       "image3": "/birthday/img3.png",
-      "inclusion": "this is about inclusion"
+      "inclusion": [
+        "150 Chrome Balloons [Pink and Rose Gold, to make a Garland and standee]",
+        "100 Orange Pastel Balloons [to make a garland and standee]",
+        "\"Happy Birthday\" Neon Light [on rent for 24 hours]",
+        "Age Number Foil [32 inch]",
+        "1 Set of Rose-Gold Sequin Curtains",
+        "2 Small Star Foils",
+        "Ribbons to Hang with balloons",
+        "Inclusive of all taxes and conveyance charges"
+      ],
+      "additionalOptions": [
+        "You can add more material in the package by paying separately",
+        "Balloons color can be changed as per your choice"
+      ]
     },
     {
       "id": 8,
       "title": "Ice-cream Theme Birthday Decoration",
       "slug": "ice-cream-theme-birthday-decoration",
-      "description": "An ice-cream themed decoration for a sweet birthday celebration.",
+      "description": "This Summer Celebrate your birthday with some ice-cream and donut and have fun with this stylish decoration of garland.",
       "price": 2499,
       "originalPrice": 2799,
       "discount": 11,
@@ -110,13 +196,28 @@
       "image1": "/birthday/img1.png",
       "image2": "/birthday/img2.png",
       "image3": "/birthday/img3.png",
-      "inclusion": "this is about inclusion"
+      "inclusion": [
+        "200 Pastel Balloons [75 White, 75 Purple and 50 Blue, to make a garland and 1 Standee of 25 balloons]",
+        "20 Chrome Balloons [mixed color, on garland]",
+        "\"Happy Birthday\" Occasion Foil Banner",
+        "Age Number Foil [16 inch]",
+        "1 Ice-cream Foil [as per the availability] (Foil color depends on availability)",
+        "1 Set of Donut Theme [as per the availability] (Foil color depends on availability)",
+        "1 Set of Blue and Silver Metallic Curtains",
+        "Ribbons to hang with balloons",
+        "Inclusive of all taxes and conveyance charges"
+      ],
+      "additionalOptions": [
+        "You can add more material in the package by paying separately",
+        "Balloons color can be changed as per your choice",
+        "Available in Delhi NCR Jaipur Kolkata Lucknow"
+      ]
     },
     {
       "id": 9,
       "title": "Cute Masha Birthday Decor",
       "slug": "cute-masha-birthday-decor",
-      "description": "A cute Masha themed decoration for your birthday.",
+      "description": "Surprise your little girl with this beautiful and elegant birthday decoration and mark their Birthday little special and amazing to them with this girlish surprise. Best Balloon Decoration at home with very reasonable price in your door, book your slot now with us.",
       "price": 1999,
       "originalPrice": 2499,
       "discount": 20,
@@ -124,7 +225,21 @@
       "image1": "/birthday/img1.png",
       "image2": "/birthday/img2.png",
       "image3": "/birthday/img3.png",
-      "inclusion": "this is about inclusion"
+      "inclusion": [
+        "150 Metallic Balloons [50 Pink, 50 Dark Pink and 50 White, to Make a Design on wall]",
+        "Happy Birthday Paper Bunting",
+        "1 Set of Masha & Bear Theme [Theme can be customized as per your choice]",
+        "Age Number Foil [16 inch]",
+        "1 Set of Silver Metallic Curtains",
+        "3 Small Star Foils",
+        "Ribbons to Hang with balloons",
+        "Inclusive of all taxes and conveyance charges"
+      ],
+      "additionalOptions": [
+        "You can add more material in the package by paying separately",
+        "Balloons color can be changed as per your choice",
+        "Available in Delhi NCR Lucknow"
+      ]
     }
   ]
 }

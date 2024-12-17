@@ -16,7 +16,8 @@ interface DecorationPackage {
   image1: string;
   image2: string;
   image3: string;
-  inclusion: string;
+  inclusion: string[];
+  additionalOptions: string[]
 }
 
 export default function BirthdaySpecification() {
@@ -45,6 +46,8 @@ export default function BirthdaySpecification() {
                 image3={item.image3}
                 id={item.id}
                 description={item.description}
+                additionalOptions={item.additionalOptions}
+
               />
             </div>
           ))
