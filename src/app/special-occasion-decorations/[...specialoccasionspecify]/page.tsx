@@ -7,12 +7,16 @@ import SpecialOccasionSpecificCard from "@/components/SpecialOccasionSpecificCar
 interface DecorationPackage {
   id: number;
   title: string;
+  slug: string;
   description: string;
-  price:number;
-  image:string;
-  inclusion:string;
-  
-
+  price: number;
+  discount: number;
+  image: string;
+  image1: string;
+  image2: string;
+  image3: string;
+  inclusion:string[];
+  additionalOptions: string[]
 }
 
 export default function SpecialOccasionSpecific() {
@@ -32,7 +36,18 @@ export default function SpecialOccasionSpecific() {
         {filterdata.length > 0 ? (
           filterdata.map((item) => (
             <div key={item.id}>
-              <SpecialOccasionSpecificCard inclusion={item.inclusion} title={item.title} price={item.price} image={item.image} id={item.id} description={item.description}/>
+              <SpecialOccasionSpecificCard  
+              inclusion={item.inclusion}
+              title={item.title}
+              price={item.price}
+              image1={item.image1}
+              image2={item.image2}
+              image3={item.image3}
+              id={item.id}
+              description={item.description}
+              additionalOptions={item.additionalOptions}
+              
+              />
             </div>
           ))
         ) : (

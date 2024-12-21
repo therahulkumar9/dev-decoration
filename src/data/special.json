@@ -9,7 +9,21 @@
       "originalPrice": 3849,
       "discount": 13,
       "image": "/special/img1.png",
-      "inclusion":"this is about inclusion"
+      "image1": "/special/img1.png",
+      "image2": "/special/img1.png",
+      "image3": "/special/img1.png",
+      "inclusion": [
+        "60 Chrome Balloons [40 Purple and 40 Silver, will stick on wall as bunches]",
+        "30-40 Balloons will be Stick on the ceiling with removable paper tapes",
+        "\"Happy Birthday\" Occasion Foil Banner",
+        "2 Star Foils [16 inch]",
+        "Ribbons to hang with balloons",
+        "Inclusive of all taxes and conveyance charges"
+      ],
+      "additionalOptions": [
+        "You can add more material in the package by paying separately",
+        "Balloons color can be changed as per your choice"
+      ]
     },
     {
       "id": 2,
@@ -20,8 +34,22 @@
       "originalPrice": null,
       "discount": 0,
       "image": "/special/img2.png",
-      "inclusion":"this is about inclusion"
-    },
+      "image1": "/special/img2.png",
+      "image2": "/special/img2.png",
+      "image3": "/special/img2.png",
+      "inclusion": [
+        "60 Chrome Balloons [40 Purple and 40 Silver, will stick on wall as bunches]",
+        "30-40 Balloons will be Stick on the ceiling with removable paper tapes",
+        "\"Happy Birthday\" Occasion Foil Banner",
+        "2 Star Foils [16 inch]",
+        "Ribbons to hang with balloons",
+        "Inclusive of all taxes and conveyance charges"
+      ],
+      "additionalOptions": [
+        "You can add more material in the package by paying separately",
+        "Balloons color can be changed as per your choice"
+      ]
+        },
     {
       "id": 3,
       "title": "Merry Christmas Theme Backdrop",
@@ -31,8 +59,22 @@
       "originalPrice": 2999,
       "discount": 22,
       "image": "/special/img3.png",
-      "inclusion":"this is about inclusion"
-    },
+      "image1": "/special/img3.png",
+      "image2": "/special/img3.png",
+      "image3": "/special/img3.png",
+      "inclusion": [
+        "60 Chrome Balloons [40 Purple and 40 Silver, will stick on wall as bunches]",
+        "30-40 Balloons will be Stick on the ceiling with removable paper tapes",
+        "\"Happy Birthday\" Occasion Foil Banner",
+        "2 Star Foils [16 inch]",
+        "Ribbons to hang with balloons",
+        "Inclusive of all taxes and conveyance charges"
+      ],
+      "additionalOptions": [
+        "You can add more material in the package by paying separately",
+        "Balloons color can be changed as per your choice"
+      ]
+        },
     {
       "id": 4,
       "title": "New Year Backdrop Decoration",
@@ -42,8 +84,22 @@
       "originalPrice": 4199,
       "discount": 7,
       "image": "/special/img4.png",
-      "inclusion":"this is about inclusion"
-    },
+      "image1": "/special/img4.png",
+      "image2": "/special/img4.png",
+      "image3": "/special/img4.png",
+      "inclusion": [
+        "60 Chrome Balloons [40 Purple and 40 Silver, will stick on wall as bunches]",
+        "30-40 Balloons will be Stick on the ceiling with removable paper tapes",
+        "\"Happy Birthday\" Occasion Foil Banner",
+        "2 Star Foils [16 inch]",
+        "Ribbons to hang with balloons",
+        "Inclusive of all taxes and conveyance charges"
+      ],
+      "additionalOptions": [
+        "You can add more material in the package by paying separately",
+        "Balloons color can be changed as per your choice"
+      ]
+        },
     {
       "id": 5,
       "title": "New Year Party Decoration",
@@ -53,8 +109,22 @@
       "originalPrice": 1949,
       "discount": 18,
       "image": "/special/img5.png",
-      "inclusion":"this is about inclusion"
-    },
+      "image1": "/special/img5.png",
+      "image2": "/special/img5.png",
+      "image3": "/special/img5.png",
+      "inclusion": [
+        "60 Chrome Balloons [40 Purple and 40 Silver, will stick on wall as bunches]",
+        "30-40 Balloons will be Stick on the ceiling with removable paper tapes",
+        "\"Happy Birthday\" Occasion Foil Banner",
+        "2 Star Foils [16 inch]",
+        "Ribbons to hang with balloons",
+        "Inclusive of all taxes and conveyance charges"
+      ],
+      "additionalOptions": [
+        "You can add more material in the package by paying separately",
+        "Balloons color can be changed as per your choice"
+      ]
+        },
     {
       "id": 6,
       "title": "New Year Party Surprise Decoration",
@@ -64,8 +134,22 @@
       "originalPrice": 2999,
       "discount": 17,
       "image": "/special/img6.png",
-      "inclusion":"this is about inclusion"
-    },
+      "image1": "/special/img6.png",
+      "image2": "/special/img6.png",
+      "image3": "/special/img6.png",
+      "inclusion": [
+        "60 Chrome Balloons [40 Purple and 40 Silver, will stick on wall as bunches]",
+        "30-40 Balloons will be Stick on the ceiling with removable paper tapes",
+        "\"Happy Birthday\" Occasion Foil Banner",
+        "2 Star Foils [16 inch]",
+        "Ribbons to hang with balloons",
+        "Inclusive of all taxes and conveyance charges"
+      ],
+      "additionalOptions": [
+        "You can add more material in the package by paying separately",
+        "Balloons color can be changed as per your choice"
+      ]
+        },
     {
       "id": 7,
       "title": "New Year Marquee Surprise",
@@ -75,8 +159,22 @@
       "originalPrice": 1949,
       "discount": 14,
       "image": "/special/img7.png",
-      "inclusion":"this is about inclusion"
-    },
+      "image1": "/special/img7.png",
+      "image2": "/special/img7.png",
+      "image3": "/special/img7.png",
+      "inclusion": [
+        "60 Chrome Balloons [40 Purple and 40 Silver, will stick on wall as bunches]",
+        "30-40 Balloons will be Stick on the ceiling with removable paper tapes",
+        "\"Happy Birthday\" Occasion Foil Banner",
+        "2 Star Foils [16 inch]",
+        "Ribbons to hang with balloons",
+        "Inclusive of all taxes and conveyance charges"
+      ],
+      "additionalOptions": [
+        "You can add more material in the package by paying separately",
+        "Balloons color can be changed as per your choice"
+      ]
+        },
     {
       "id": 8,
       "title": "Independence Day Special Decor",
@@ -86,8 +184,22 @@
       "originalPrice": 3299,
       "discount": 15,
       "image": "/special/img8.png",
-      "inclusion":"this is about inclusion"
-    },
+      "image1": "/special/img8.png",
+      "image2": "/special/img8.png",
+      "image3": "/special/img8.png",
+      "inclusion": [
+        "60 Chrome Balloons [40 Purple and 40 Silver, will stick on wall as bunches]",
+        "30-40 Balloons will be Stick on the ceiling with removable paper tapes",
+        "\"Happy Birthday\" Occasion Foil Banner",
+        "2 Star Foils [16 inch]",
+        "Ribbons to hang with balloons",
+        "Inclusive of all taxes and conveyance charges"
+      ],
+      "additionalOptions": [
+        "You can add more material in the package by paying separately",
+        "Balloons color can be changed as per your choice"
+      ]
+        },
     {
       "id": 9,
       "title": "Diwali Special Decoration",
@@ -97,7 +209,21 @@
       "originalPrice": 3499,
       "discount": 14,
       "image": "/special/img9.png",
-      "inclusion":"this is about inclusion"
-    }
+      "image1": "/special/img9.png",
+      "image2": "/special/img9.png",
+      "image3": "/special/img9.png",
+      "inclusion": [
+        "60 Chrome Balloons [40 Purple and 40 Silver, will stick on wall as bunches]",
+        "30-40 Balloons will be Stick on the ceiling with removable paper tapes",
+        "\"Happy Birthday\" Occasion Foil Banner",
+        "2 Star Foils [16 inch]",
+        "Ribbons to hang with balloons",
+        "Inclusive of all taxes and conveyance charges"
+      ],
+      "additionalOptions": [
+        "You can add more material in the package by paying separately",
+        "Balloons color can be changed as per your choice"
+      ]
+        }
   ]
 }
