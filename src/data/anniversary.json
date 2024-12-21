@@ -9,7 +9,20 @@
       "originalPrice": 3999,
       "discount": 13,
       "image": "/anniversary/img1.png",
-      "inclusion":"this is about inclusion <div>this is second thing</div> <div> This is third thing </div> <div>This is fourth thing </div> <this is fifth thing</div>"
+      "image1": "/anniversary/img1.png",
+      "image2": "/anniversary/img1.png",
+      "image3": "/anniversary/img1.png",
+"inclusion": [
+        "60 Chrome Balloons [40 Purple and 40 Silver, will stick on wall as bunches]",
+        "30-40 Balloons will be Stick on the ceiling with removable paper tapes",
+        "\"Happy Birthday\" Occasion Foil Banner",
+        "2 Star Foils [16 inch]",
+        "Ribbons to hang with balloons",
+        "Inclusive of all taxes and conveyance charges"
+      ],      "additionalOptions": [
+        "You can add more material in the package by paying separately",
+        "Balloons color can be changed as per your choice"
+      ]
     },
     {
       "id": 2,
@@ -20,7 +33,20 @@
       "originalPrice": 2399,
       "discount": 17,
       "image": "/anniversary/img2.png",
-      "inclusion":"this is about inclusion <div>this is second thing</div> <div> This is third thing </div> <div>This is fourth thing </div> <this is fifth thing</div>"
+      "image1": "/anniversary/img2.png",
+      "image2": "/anniversary/img2.png",
+      "image3": "/anniversary/img2.png",
+"inclusion": [
+        "60 Chrome Balloons [40 Purple and 40 Silver, will stick on wall as bunches]",
+        "30-40 Balloons will be Stick on the ceiling with removable paper tapes",
+        "\"Happy Birthday\" Occasion Foil Banner",
+        "2 Star Foils [16 inch]",
+        "Ribbons to hang with balloons",
+        "Inclusive of all taxes and conveyance charges"
+      ],      "additionalOptions": [
+        "You can add more material in the package by paying separately",
+        "Balloons color can be changed as per your choice"
+      ]
     },
     {
       "id": 3,
@@ -31,7 +57,20 @@
       "originalPrice": 1599,
       "discount": 13,
       "image": "/anniversary/img3.png",
-      "inclusion":"this is about inclusion <div>this is second thing</div> <div> This is third thing </div> <div>This is fourth thing </div> <this is fifth thing</div>"
+      "image1": "/anniversary/img3.png",
+      "image2": "/anniversary/img3.png",
+      "image3": "/anniversary/img3.png",
+"inclusion": [
+        "60 Chrome Balloons [40 Purple and 40 Silver, will stick on wall as bunches]",
+        "30-40 Balloons will be Stick on the ceiling with removable paper tapes",
+        "\"Happy Birthday\" Occasion Foil Banner",
+        "2 Star Foils [16 inch]",
+        "Ribbons to hang with balloons",
+        "Inclusive of all taxes and conveyance charges"
+      ],      "additionalOptions": [
+        "You can add more material in the package by paying separately",
+        "Balloons color can be changed as per your choice"
+      ]
     },
     {
       "id": 4,
@@ -42,7 +81,20 @@
       "originalPrice": 4999,
       "discount": 10,
       "image": "/anniversary/img4.png",
-      "inclusion":"this is about inclusion <div>this is second thing</div> <div> This is third thing </div> <div>This is fourth thing </div> <this is fifth thing</div>"
+      "image1": "/anniversary/img4.png",
+      "image2": "/anniversary/img4.png",
+      "image3": "/anniversary/img4.png",
+"inclusion": [
+        "60 Chrome Balloons [40 Purple and 40 Silver, will stick on wall as bunches]",
+        "30-40 Balloons will be Stick on the ceiling with removable paper tapes",
+        "\"Happy Birthday\" Occasion Foil Banner",
+        "2 Star Foils [16 inch]",
+        "Ribbons to hang with balloons",
+        "Inclusive of all taxes and conveyance charges"
+      ],      "additionalOptions": [
+        "You can add more material in the package by paying separately",
+        "Balloons color can be changed as per your choice"
+      ]
     },
     {
       "id": 5,
@@ -53,7 +105,20 @@
       "originalPrice": 2499,
       "discount": 20,
       "image": "/anniversary/img5.png",
-      "inclusion":"this is about inclusion <div>this is second thing</div> <div> This is third thing </div> <div>This is fourth thing </div> <this is fifth thing</div>"
+      "image1": "/anniversary/img5.png",
+      "image2": "/anniversary/img5.png",
+      "image3": "/anniversary/img5.png",
+"inclusion": [
+        "60 Chrome Balloons [40 Purple and 40 Silver, will stick on wall as bunches]",
+        "30-40 Balloons will be Stick on the ceiling with removable paper tapes",
+        "\"Happy Birthday\" Occasion Foil Banner",
+        "2 Star Foils [16 inch]",
+        "Ribbons to hang with balloons",
+        "Inclusive of all taxes and conveyance charges"
+      ],      "additionalOptions": [
+        "You can add more material in the package by paying separately",
+        "Balloons color can be changed as per your choice"
+      ]
     },
     {
       "id": 6,
@@ -64,7 +129,20 @@
       "originalPrice": 2699,
       "discount": 6,
       "image": "/anniversary/img6.png",
-      "inclusion":"this is about inclusion <div>this is second thing</div> <div> This is third thing </div> <div>This is fourth thing </div> <this is fifth thing</div>"
+      "image1": "/anniversary/img6.png",
+      "image2": "/anniversary/img6.png",
+      "image3": "/anniversary/img6.png",
+"inclusion": [
+        "60 Chrome Balloons [40 Purple and 40 Silver, will stick on wall as bunches]",
+        "30-40 Balloons will be Stick on the ceiling with removable paper tapes",
+        "\"Happy Birthday\" Occasion Foil Banner",
+        "2 Star Foils [16 inch]",
+        "Ribbons to hang with balloons",
+        "Inclusive of all taxes and conveyance charges"
+      ],      "additionalOptions": [
+        "You can add more material in the package by paying separately",
+        "Balloons color can be changed as per your choice"
+      ]
     },
     {
       "id": 7,
@@ -75,7 +153,20 @@
       "originalPrice": 2299,
       "discount": 17,
       "image": "/anniversary/img7.png",
-      "inclusion":"this is about inclusion <div>this is second thing</div> <div> This is third thing </div> <div>This is fourth thing </div> <this is fifth thing</div>"
+      "image1": "/anniversary/img7.png",
+      "image2": "/anniversary/img7.png",
+      "image3": "/anniversary/img7.png",
+"inclusion": [
+        "60 Chrome Balloons [40 Purple and 40 Silver, will stick on wall as bunches]",
+        "30-40 Balloons will be Stick on the ceiling with removable paper tapes",
+        "\"Happy Birthday\" Occasion Foil Banner",
+        "2 Star Foils [16 inch]",
+        "Ribbons to hang with balloons",
+        "Inclusive of all taxes and conveyance charges"
+      ],      "additionalOptions": [
+        "You can add more material in the package by paying separately",
+        "Balloons color can be changed as per your choice"
+      ]
     },
     {
       "id": 8,
@@ -86,7 +177,20 @@
       "originalPrice": 3699,
       "discount": 19,
       "image": "/anniversary/img8.png",
-      "inclusion":"this is about inclusion <div>this is second thing</div> <div> This is third thing </div> <div>This is fourth thing </div> <this is fifth thing</div>"
+      "image1": "/anniversary/img8.png",
+      "image2": "/anniversary/img8.png",
+      "image3": "/anniversary/img8.png",
+"inclusion": [
+        "60 Chrome Balloons [40 Purple and 40 Silver, will stick on wall as bunches]",
+        "30-40 Balloons will be Stick on the ceiling with removable paper tapes",
+        "\"Happy Birthday\" Occasion Foil Banner",
+        "2 Star Foils [16 inch]",
+        "Ribbons to hang with balloons",
+        "Inclusive of all taxes and conveyance charges"
+      ],      "additionalOptions": [
+        "You can add more material in the package by paying separately",
+        "Balloons color can be changed as per your choice"
+      ]
     },
     {
       "id": 9,
@@ -97,7 +201,20 @@
       "originalPrice": 5799,
       "discount": 22,
       "image": "/anniversary/img9.png",
-      "inclusion":"this is about inclusion <div>this is second thing</div> <div> This is third thing </div> <div>This is fourth thing </div> <this is fifth thing</div>"
+      "image1": "/anniversary/img9.png",
+      "image2": "/anniversary/img9.png",
+      "image3": "/anniversary/img9.png",
+"inclusion": [
+        "60 Chrome Balloons [40 Purple and 40 Silver, will stick on wall as bunches]",
+        "30-40 Balloons will be Stick on the ceiling with removable paper tapes",
+        "\"Happy Birthday\" Occasion Foil Banner",
+        "2 Star Foils [16 inch]",
+        "Ribbons to hang with balloons",
+        "Inclusive of all taxes and conveyance charges"
+      ],      "additionalOptions": [
+        "You can add more material in the package by paying separately",
+        "Balloons color can be changed as per your choice"
+      ]
     }
   ]
 }
