@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function CallButton(){
 
-    const whatsappLink = `tel:+917562937524`
+    const whatsappLink = `tel:+919135495141`
 
     return(
         <div>

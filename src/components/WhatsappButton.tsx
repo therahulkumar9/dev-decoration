@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function WhatsappButton(){
 
-    const whatsappLink = `https://wa.me/917562937524`
+    const whatsappLink = `https://wa.me/919135495141`
 
     return(
         <div>
